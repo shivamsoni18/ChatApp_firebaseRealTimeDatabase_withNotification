@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.UserlistActivity"
+    android:orientation="vertical">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:elevation="10dp"
+       android:orientation="horizontal"
+       android:layout_gravity="center_vertical"
+       android:gravity="center_vertical"
+       android:weightSum="3"
+       android:background="@color/colorPrimary">
+
+      <ImageView
+          android:id="@+id/backbtn"
+          android:layout_width="50dp"
+          android:layout_height="50dp"
+          android:padding="10dp"
+          android:src="@drawable/firechat2"/>
+
+      <TextView
+          android:id="@+id/usersTV"
+          android:layout_weight="1"
+          android:layout_width="match_parent"
+          android:layout_height="50dp"
+          android:gravity="center_vertical"
+          android:textStyle="bold"
+          android:layout_marginLeft="5dp"
+          android:textColor="#fff"
+          android:textSize="20sp"
+          android:text="Available Users"/>
+
+      <TextView
+          android:layout_weight="2"
+          android:id="@+id/logoutBtn"
+          android:layout_width="match_parent"
+          android:layout_height="50dp"
+          android:gravity="center_vertical|right"
+          android:layout_marginRight="16dp"
+          android:textStyle="bold"
+          android:layout_marginLeft="5dp"
+          android:textColor="#fff"
+          android:textSize="14sp"
+          android:text="LOGOUT"/>
+
+
+   </LinearLayout>
+
+   <TextView
+       android:id="@+id/ownid"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:padding="10dp"
+       android:layout_gravity="right|center"
+       android:gravity="right|center"
+       android:textColor="@color/colorPrimary"
+       android:textStyle="bold"
+       android:textSize="14sp"
+       android:text="shivamsoni18"/>
+
+   <androidx.recyclerview.widget.RecyclerView
+       android:id="@+id/rvmain"
+       android:padding="6dp"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+   </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

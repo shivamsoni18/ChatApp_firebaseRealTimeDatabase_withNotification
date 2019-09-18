@@ -6,3 +6,8 @@ APK [firechat_v1.apk](https://github.com/shivamsoni18/ChatApp_firebaseRealTimeDa
 
 
 
+
+### Firestore Real-time database structure: 
+
+![alt text](https://github.com/shivamsoni18/ChatApp_firebaseRealTimeDatabase_withNotification/blob/master/imgs/console2.JPG)
+
